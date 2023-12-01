@@ -18,7 +18,7 @@ question.addEventListener('mousedown',(e) => {
     }else if (button == 2){
         valeur-=1;
     }
-    phrase.style.fontSize = valeur + "px";
+    phrase.style.fontSize = valeur + "mm";
     console.log(phrase.style.fontSize);
 })
 
